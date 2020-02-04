@@ -16,7 +16,17 @@ var n = prompt('Your number n') ;
 var s = n+(Number(n)+Number(n))+(Number(n)+Number(n)+Number(n));
 console.log(s)
 //4Xndir
-?
+var n = prompt ('Your number n');
+if (n % 10 === 0){
+    console.log(n);
+} else if (Math.floor(n / 10) === 0){
+    console.log(n);
+} else {
+    var a = n % 10;
+    var x = Math.floor(n/10);
+    var s = String(a) + String(x);
+    console.log(s)
+}
 //5xndir
 var k = +prompt('Your number k');
 var l = +prompt('Your number l');
